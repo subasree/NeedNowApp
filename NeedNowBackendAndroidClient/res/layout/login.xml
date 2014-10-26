@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NeedNow!!!"
+            android:textColor="#372c24"
+            android:textSize="30dip" />
+    </LinearLayout>
+
+    <!-- Header  Starts -->
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:background="@layout/header_gradient"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <!-- Logo Start -->
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/login_img" />
+        <!-- Logo Ends -->
+    </LinearLayout>
+    <!-- Header Ends -->
+
+    <LinearLayout
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/announce_text"
+            style="@style/AnnounceText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/medium_grey"
+            android:gravity="center"
+            android:visibility="gone" />
+        
+         <TextView
+            android:id="@+id/msgtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#372c24"
+            android:textSize="30dip" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="Google+Signin"
+            android:textSize="25dp" />
+        <Button
+            android:id="@+id/btnData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="InsertData"
+            android:textSize="25dp" />
+        <!-- Link to Registration Screen -->
+
+    </LinearLayout>
+
+</RelativeLayout>

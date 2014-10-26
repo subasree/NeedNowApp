@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:id="@+id/dialog_custom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dip" >
+
+        <TextView
+            android:id="@+id/locn_disp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/zipcode_disp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/locn_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/edit_text"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null"
+            android:textSize="25sp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dialog_custom1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_custom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="OK"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>
