@@ -1,15 +1,42 @@
-# view AndroidManifest.xml #generated:37
+# view AndroidManifest.xml #generated:100
 -keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:47
+# view res/layout/activity_main_bkp.xml #generated:23
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
 -keep class com.google.cloud.backend.GCMIntentService { <init>(...); }
 
-# view AndroidManifest.xml #generated:35
+# view AndroidManifest.xml #generated:98
 -keep class com.google.cloud.backend.neednow.GCMIntentService { <init>(...); }
 
-# view AndroidManifest.xml #generated:16
+# view AndroidManifest.xml #generated:39
+-keep class com.google.cloud.backend.neednow.sample.guestbook.CategoryList { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.google.cloud.backend.neednow.sample.guestbook.HaveListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
 -keep class com.google.cloud.backend.neednow.sample.guestbook.HomeActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:22
+# view AndroidManifest.xml #generated:85
 -keep class com.google.cloud.backend.neednow.sample.guestbook.IntroductionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.google.cloud.backend.neednow.sample.guestbook.ListingPosts { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.google.cloud.backend.neednow.sample.guestbook.MatchHaveNeed { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.google.cloud.backend.neednow.sample.guestbook.MatchNeedHave { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.google.cloud.backend.neednow.sample.guestbook.MyMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.google.cloud.backend.neednow.sample.guestbook.NeedListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.google.cloud.backend.neednow.sample.guestbook.TabView { <init>(...); }
 

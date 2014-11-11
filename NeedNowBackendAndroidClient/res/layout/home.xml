@@ -77,7 +77,8 @@
                 android:padding="10dp"
                 android:text="Find Similar"
                 android:textAlignment="center"
-                android:textSize="18sp" />
+                android:textSize="18sp" 
+                android:clickable="true"/>
 
             <Button
                 android:id="@+id/btnNeed"
@@ -89,6 +90,7 @@
                 android:background="@drawable/button_style"
                 android:padding="10dp"
                 android:text="I Need"
+                android:clickable="true"
                 android:textAlignment="center"
                 android:textSize="18sp" />
 

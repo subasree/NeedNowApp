@@ -34,9 +34,31 @@
             android:layout_marginTop="15dip"
             android:background="@drawable/edit_text"
             android:singleLine="true"
+            android:hint="enter zipcode"
             android:textColor="@android:color/black"
             android:textCursorDrawable="@null"
             android:textSize="25sp" >
+
+            <requestFocus />
+        </EditText>
+         <TextView
+            android:id="@+id/phone_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+          <EditText
+            android:id="@+id/phone_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/edit_text"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:hint="enter 10 digit number"
+            android:textCursorDrawable="@null"
+            android:textSize="20sp" >
 
             <requestFocus />
         </EditText>

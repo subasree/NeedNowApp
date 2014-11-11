@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Cloud NeedHave</string>
+    <string name="app_name">NeedHave</string>
     <string name="hello_world">Hello world!</string>
     <string name="switch_account">Switch Account</string>
     <string name="view_intro">View Intro</string>
@@ -22,4 +22,12 @@
     <string name="intro_2_dscrp">The guestbook app uses the Mobile Backend Starter for messaging and user authentication. The backend also provides a cloud datastore, with public and private objects, and a subscription service to give your apps real time interactivity.</string>
     <string name="intro_3_title">Now it’s your turn</string>
     <string name="intro_3_dscrp">Play around with this app and the source code to become familiar with the Mobile Backend Starter. When you are ready, replace the Guestbook sample code with your own app or game code.</string>
+	 <string name="action_list">My Listings</string>
+    <string name="action_home">Home</string>
+    <string name="action_account">Account</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_contacts">Contacts</string>
+    <string name="action_help">Help</string>
+    <string name="action_check_updates">Check for Updates</string>
+
 </resources>

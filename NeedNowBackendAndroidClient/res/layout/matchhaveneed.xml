@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Single List Item Design -->
+
+
+<!--
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" 
+    android:background="@color/white">
+	<TextView 
+        android:id="@+id/label1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:padding="10dip"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+	</TextView>
+</ScrollView>
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/page_text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:padding="10dip"
+        android:text="Similar Listings"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" 
+        android:visibility="invisible">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnSelect1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="10dp"
+        android:text="Select to subscribe"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/list_have"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector" />
+
+</LinearLayout>
